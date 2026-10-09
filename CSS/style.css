@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../FONTS/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../FONTS/Rubik-Regular.ttf);
+}
+.container{
+width: 1180px;
+height: 100vh;
+background-color: lightgreen;
+margin: 0 auto;
+}
+
+.header{
+height: 40px;
+background-color: green;
+margin-top: 32px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header__logo{
+display: flex;
+align-items: center;
+}
+
+.header__logo-txt{
+font-family: Rubik-Medium;
+font-size: 20px;
+color: #333333;
+margin-left: 11.88px;
+}
+
+.header__search-txt{
+width: 320px;
+height: 25px;
+border: none;
+border-bottom: 1px #333333 solid;
+color: #333333;
+}
+
+.header__search-txt::placeholder{
+font-size: 16px;
+color: #828282;
+font-family:  Rubik-Regular;
+}
+
+.header__search-txt:focus{
+outline: none;
+}
+
+.header__search-btn{
+border: none;
+background: none;
+color: #E5261E;
+font-family: Rubik-Medium;
+font-size: 16px;
+margin-left: 32px;
+}
+
+.header__auth-btn{
+background: #E5261E;
+border: none;
+color: #FFFFFF;
+font-family: Rubik-Medium;
+font-size: 16px;
+border-radius: 4px;
+width: 113px;
+height: 38px;
+}
+
+.header__auth-btn:hover{
+background: #CC221B;}
